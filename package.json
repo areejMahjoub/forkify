@@ -2,10 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "default": "index.html",
+  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --out-dir ./dist"
   },
   "author": "",
   "license": "ISC",
@@ -18,7 +18,6 @@
     "view.js": "^4.1.0"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1",
     "sass": "^1.35.1"
   }
 }
